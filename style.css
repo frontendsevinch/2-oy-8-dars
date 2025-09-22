@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header {
+    padding: 15px 0;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Mulish";
+}
+
+.header__nav {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    gap: 41px;
+}
+
+.header__link {
+    color: black;
+    font-size: 18px;
+    font-weight: 800px;
+
+}
+
+.btn {
+    border-radius: 55px;
+    padding: 10px 20px;
+    background-color: rgb(149, 149, 253);
+    border: transparent;
+    color: white;
+}
+
+.wrapper {
+    display: flex;
+    gap: 120px;
+}
+
+.imagee {
+    width: 609px;
+}
+
+h1 {
+    margin-bottom: 26px;
+}
+
+p {
+    margin-bottom: 26px;
+    color: grey;
+}
+
+.textbox {
+    width: 400px;
+}
+
+.align {
+    text-align: center;
+    margin-top: 100px;
+}
+
+h2 {
+    margin-bottom: 26px;
+}
+
+.p2 {
+    width: 952px;
+    text-align: center;
+    height: 100vh;
+    width: 952px;
+    height: 200px;
+    /* Задаем высоту блока */
+    display: flex;
+    justify-content: center;
+    /* Горизонтальное центрирование */
+    align-items: center;
+    /* Вертикальное центрирование */
+    text-align: center;
+    /* Центр текста внутри <p> */
+    margin: 0 auto;
+}
+.text2 {
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    background-color: #5A98F2;
+    padding: 71px 57px 32px 40px;
+    border-radius: 20px;
+}
+.box2 {
+    width: 380px;
+    background-color: #E7E7E7;
+    padding: 71px 57px 32px 40px;
+    border-radius: 20px;
+}
+.h33{
+    margin-top: 20px;
+}
+.text4{
+border: 3px solid #458FF6;
+color: #458FF6;
+background-color: transparent;
+border-radius: 55px;
+padding: 15px 25px;
+}
+.text3 {
+display: flex;
+justify-content: center;
+margin-top: 45px;
+margin-bottom: 45px;
+
+}
